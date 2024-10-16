@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-info{
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-info h2,p{
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+.img{
+    height: 30vh;
+    width: 50vw;
+
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.bigname{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 1000;
+
+}
+.bigemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 1000;
+
+}
+.bigage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 1000;
+}
+.bigDOB{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 1000;
+}
+.bigphone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 1000;
+}
+.biglocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 1000;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 15vh;
+    }
+
+    .img {
+        height: 20vh;
+        width: 80vw;
+    }
+
+    .bigname, .bigemail, .bigage, .bigDOB, .bigphone, .biglocation {
+        font-size: medium; 
+    }
+
+    .user-info h2, p {
+        font-size: small;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 12vh;
+    }
+
+    .img {
+        height: 20vh;
+        width: 90vw; 
+    }
+
+    .bigname, .bigemail, .bigage, .bigDOB, .bigphone, .biglocation {
+        font-size: small; 
+    }
+
+    .user-info h2, p {
+        font-size: small;
+    }
+}
