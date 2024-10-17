@@ -16,7 +16,7 @@ async function getdetails() {
 
             name.textContent= `${user.name.first} ${user.name.last}`;
 
-            img.src= user.picture.medium;
+            img.src= user.picture.medium; 
 
             button.addEventListener('click' , ()=>{
                 localStorage.setItem("currentUser",JSON.stringify(user));
