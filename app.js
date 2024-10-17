@@ -14,7 +14,7 @@ async function getdetails() {
            const img = userDiv.querySelector('img');
             const button = userDiv.querySelector('button');
 
-            name.textContent= `${user.name.first} ${user.name.last}`;
+            name.textContent= user.name.first, user.name.last;
 
             img.src= user.picture.medium; 
 
